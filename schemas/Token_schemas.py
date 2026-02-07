@@ -6,8 +6,10 @@ class Token(BaseModel):
     refresh_token: str
     token_type: str
 
+
 class TokenRefresh(BaseModel):
     refresh_token: str
+
 
 class LoginRequest(BaseModel):
     email: str
