@@ -1,3 +1,4 @@
+from db import get_db
 from fastapi import APIRouter
 from sqlalchemy.orm import Session
 from repositories.user_repo import UserRepo
